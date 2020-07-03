@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="container">
+    <main>
+        <div class="alinhar-centro">
+            <form id="formulario">
+                <label class="estilo-fonte">CEP:</label>
+                <input type="text" id="cep" placeholder="Insira o CEP">
+                <button onclick="consultarCep()">Consultar</button>
+            </form>
+        </div>
+
+        
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">CEP</th>
+                    <th scope="col">Logradouro</th>
+                    <th scope="col">Bairro</th>
+                    <th scope="col">Localidade</th>
+                    <th scope="col">UF</th>
+                </tr>
+                <tbody data-conteudo-tabela>
+                    
+                </tbody>
+            </thead>
+        </table>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

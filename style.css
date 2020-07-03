@@ -1,0 +1,18 @@
+.container {
+    background-color: #86a2cc;
+}
+
+.alinhar-centro {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    color: #eeeeee;;
+}
+
+.estilo-fonte {
+    margin-right: 0.5em;
+}
